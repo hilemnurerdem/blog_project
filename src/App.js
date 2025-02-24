@@ -1,8 +1,16 @@
+import React from 'react';
+import './App.css';
+import TopBar from './topbar/TopBar';
+import Home from './pages/home/Home';
+
+
 function App() {
   return (
-    <div>
-      <h1>hoş geldiniz</h1>
-    </div>
+    <>
+        <TopBar/>
+        <Home />
+
+    </>
   );
 }
 
