@@ -58,7 +58,7 @@ export default function Post(){
             <p className='postDesc'>
             Dijital ödeme sistemlerinde gerçekleşen işlemler arasında sahtecilik vakalarını gerçek zamanlı olarak tespit edebilecek bir makine öğrenimi modeli geliştirdik.            </p>
 
-            <img className='postImg ' src='2.jpg' alt=''/>
+            <img className='postImg ' src='dis.jpg' alt=''/>
             <div className='postInfo'>
                 <div className='postCats'>
                     <span className='postCats'>Yapay Zeka</span>
@@ -71,9 +71,6 @@ export default function Post(){
             Yapay zeka kullanarak diş eti çekilmesini otomatik olarak belirleyen bir sistem geliştirdik. Yüklenen medikal görüntüleri analiz ederek diş eti sağlığıyla ilgili bilgi veriyor ve uzmanlara destek olmayı amaçlıyor.
                 
             </p>
-
-
-            
         </div>
     )
 }
