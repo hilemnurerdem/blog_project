@@ -1,7 +1,6 @@
 .posts{
-    flex: 5;
+    flex: 9;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center; 
+   
 }

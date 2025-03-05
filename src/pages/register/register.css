@@ -1,0 +1,54 @@
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(
+        rgba(255, 255, 255, 0.5), 
+        rgba(255, 255, 255, 0.5)),
+        url('yıldız.png');
+    background-size: cover;
+}
+
+.registerTitle{
+    font-size: 70px ;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.registerForm{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 20px 0;
+}
+
+.registerInput{
+    padding: 15px;
+    background-color: white;
+    border: none;
+}
+
+.registerButton, .registerLoginButton {
+    width: 200px;  /* Buton genişliğini eşitle */
+    max-width: 250px; /* Çok geniş olmamasını sağla */
+    margin: 10px auto; /* Ortala */
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-block; /* Genişliğin içeriğe uygun olmasını sağlar */
+    text-align: center;
+}
+
+.registerButton {
+    background-color: rgb(219, 41, 109);
+}
+
+.registerLoginButton {
+    background-color: rgb(33, 87, 210);
+}

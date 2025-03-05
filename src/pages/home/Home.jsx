@@ -3,6 +3,8 @@ import Posts from '../../components/posts/Posts';
 import Sidebar from '../../components/sidebar/Sidebar';
 import Page1 from '../page1/page1';
 import './home.css'
+import React from 'react';
+
 
 export default function Home() {
     return(
